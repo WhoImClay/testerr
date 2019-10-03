@@ -1,20 +1,10 @@
 while(true) do
 if gg.isVisible(true) then
-menuk = 1
-menuk = 0
+menuk
 gg.setVisible(false)
 end
 
-START = 1
-function START()
-menu = gg.choice({"👉[CARACTER MENU] [[📂]]","🖖 [Shoot Menu] [[📂]]","👌 [TAMBAHAN] [[📂]]","⭕EXIT⭕"},nil,"Subscribe YT Mmg Garuk")
-if menu == 1 then ch1() end
-if menu == 2 then ch2() end
-if menu == 3 then ch3() end
-if menu == 4 then os.exit() end
-end
-
-START = 0
+START
 function START()
 menu = gg.choice({"👉[CARACTER MENU] [[📂]]","🖖 [Shoot Menu] [[📂]]","👌 [TAMBAHAN] [[📂]]","⭕EXIT⭕"},nil,"Subscribe YT Mmg Garuk")
 if menu == 1 then ch1() end
@@ -85,8 +75,6 @@ function higj()
 gg.toast("high jump active")
 end
 
-
-if menuk == 1 then START() end
-if menuk == 0 then START() end
+menuk == then START() end
 end
 
